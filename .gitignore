@@ -1,0 +1,15 @@
+.gradle
+*.iml
+*.ipr
+*.iws
+build
+classes
+out
+lib
+.classpath
+.project
+.settings
+.idea
+bin
+.sass-cache/
+*.lnk
