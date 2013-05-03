@@ -71,8 +71,8 @@
 
 (defn prob7 [] (nth (sieve (iterate inc 2)) 10001))
 
-(defn collatz-seq [n] (seq (cons n (lazy-seq(cond (= n 1) '() (= (mod n 2) 0) (collatz-seq (/ n 2)) (= (mod n 2) 1) (collatz-seq(+ (* 3 n) 1)))))))
+;;(defn collatz-seq [n] (seq (cons n (lazy-seq(cond (= n 1) '() (= (mod n 2) 0) (collatz-seq (/ n 2)) (= (mod n 2) 1) (collatz-seq(+ (* 3 n) 1)))))))
 
-(defn collatz-count [n] (count (collatz-seq n)))
+;;(defn collatz-count [n] (count (collatz-seq n)))
 
 
